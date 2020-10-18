@@ -7,7 +7,7 @@ commentForm.onsubmit = function (evt) {
   evt.preventDefault();
 
   let newFoto = document.createElement("img");
-  newFoto.setAttribute("src", "content/user1.png");
+  newFoto.setAttribute("src", "Content/user1.png");
   commentList.append(newFoto);
 
   let newName = document.createElement("span");
