@@ -1,9 +1,8 @@
-h1 {
+h2 {
   font-size: 36px;
   color: #2e2f22;
   font-weight: bold;
   font-family: "Spectral SC", serif;
-  text-transform: uppercase;
 }
 button,
 .button {
@@ -133,7 +132,6 @@ button,
   font-size: 17px;
   font-weight: bold;
   font-family: "Spectral SC", serif;
-  text-transform: uppercase;
 }
 
 .unit-text-1 {
@@ -168,7 +166,6 @@ button,
   font-size: 20px;
   font-weight: bold;
   font-family: "Spectral SC", serif;
-  text-transform: uppercase;
 }
 
 .unit-text-2 {
@@ -209,7 +206,7 @@ button,
   text-align: center;
 }
 
-.portfolio-unit__text h2 {
+.portfolio-unit__text h3 {
   margin-bottom: 44px;
 }
 .unit-name-black {
@@ -217,7 +214,6 @@ button,
   font-size: 20px;
   font-weight: bold;
   font-family: "Spectral SC", serif;
-  text-transform: uppercase;
 }
 
 .unit-header-black {
@@ -226,7 +222,6 @@ button,
   line-height: 28px;
   font-weight: bold;
   font-family: "Spectral SC", serif;
-  text-transform: uppercase;
 }
 
 .unit-text-black {
@@ -241,7 +236,6 @@ button,
   font-size: 20px;
   font-weight: bold;
   font-family: "Spectral SC", serif;
-  text-transform: uppercase;
 }
 
 .unit-header-white {
@@ -250,7 +244,6 @@ button,
   line-height: 28px;
   font-weight: bold;
   font-family: "Spectral SC", serif;
-  text-transform: uppercase;
 }
 
 .unit-text-white {
@@ -311,7 +304,6 @@ label {
   line-height: 28px;
   font-weight: bold;
   font-family: "Spectral SC", serif;
-  text-transform: uppercase;
 }
 .write-me-unit__forms #mail-field,
 .write-me-unit__forms #message-field,
@@ -409,7 +401,7 @@ figcaption {
   font-family: "Open Sans", sans-serif;
   padding-bottom: 5px;
 }
-.post1__text h2 {
+.post1__text h3 {
   color: #2e2f22;
   font-size: 36px;
   font-family: "Open Sans", sans-serif;
@@ -448,7 +440,7 @@ li p {
   width: 712px;
 }
 
-.leave-comment h3 {
+.leave-comment h4 {
   color: #2e2f22;
   font-size: 24px;
   font-weight: bold;
