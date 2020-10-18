@@ -395,7 +395,7 @@ figcaption {
 }
 
 .like-button {
-  background-image: url(content/Like.svg);
+  background-image: url(Content/Like.svg);
   background-repeat: no-repeat;
   border: none;
   width: 56px;
