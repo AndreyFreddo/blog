@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blog.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__content">
+        <a href="#" class="logo"><img src="content/Logo.svg" alt="Logo" /></a>
+        <nav class="header-nav">
+          <a href="#all-articles">Статьи</a>
+          <a href="#about-me">Обо мне</a>
+          <a href="#portfolio">Портфолио</a>
+          <a href="#write-me">Написать мне</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="article" id="all-articles">
+          <div class="article-header" ;>
+            <h1 class="all-articles">Все статьи</h1>
+            <select class="select-theme" name="theme" value="Выбрать тему">
+              <option value="Travel">Выбрать тему</option>
+              <option value="Travel">Путешествия</option>
+              <option value="city">Город</option>
+              <option value="books">Книги</option>
+              <option value="photo">Фотографии</option>
+              <option value="recipes">Рецепты</option>
+              <option value="all-articles">Все статьи</option>
+            </select>
+          </div>
+          <div class="article__unit-1">
+            <div
+              class="article__unit-1__picture linkblock"
+              onclick="location.href='post1.html'"
+            >
+              <img src="content/Post1.svg" alt="Travel to Berlin" />
+              <div class="article__unit-1__text">
+                <h2 class="unit-name-1">Путешествие в Берлин в августе</h2>
+                <span class="unit-text-1"
+                  >Летний месяц я провела в столице Германии вместе с друзьями.
+                  И вот как это было!</span
+                >
+                <div class="unit-tags-time">
+                  <div class="unit-tags">Теги: путешествия</div>
+                  <div class="unit-time">
+                    <time datetime="2020-09-29">29.09.2020</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="article__unit-1__picture linkblock"
+              onclick="location.href='post1.html'"
+            >
+              <img
+                src="content/Post2.svg"
+                alt="Where to drink cold brew in Moscow"
+              />
+              <div class="article__unit-1__text">
+                <h2 class="unit-name-1">Где выпить колдбрю в Москве</h2>
+                <span class="unit-text-1"
+                  >Собрала для вас список любимых кофеен, где подают лучший
+                  летний напиток.</span
+                >
+                <div class="unit-tags-time">
+                  <div class="unit-tags">Теги: город</div>
+                  <div class="unit-time">
+                    <time datetime="2020-07-24">24.07.2020</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="article__unit-1__picture linkblock"
+              onclick="location.href='post1.html'"
+            >
+              <img src="content/Post3.svg" alt="Read: book recommendations" />
+              <div class="article__unit-1__text">
+                <h2 class="unit-name-1">Прочитано: книжные рекомендации</h2>
+                <span class="unit-text-1"
+                  >Рассказываю о прочитанных за последнее время книгах: фавориты
+                  и провалы.</span
+                >
+                <div class="unit-tags-time">
+                  <div class="unit-tags">Теги: книги</div>
+                  <div class="unit-time">
+                    <time datetime="2020-07-15">15.07.2020</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="article__unit-2">
+            <div
+              class="article__unit-2__picture linkblock"
+              onclick="location.href='post1.html'"
+            >
+              <img src="content/Article1.svg" alt="the images on the film" />
+              <div class="article__unit-2__text">
+                <h2 class="unit-name-2">Снимки на плёнку</h2>
+                <span class="unit-text-2"
+                  >Поделилась с вами весенними фотографиями, и секретами удачных
+                  снимков.</span
+                >
+                <div class="unit-tags-time">
+                  <div class="unit-tags">Теги: фотографии</div>
+                  <div class="unit-time">
+                    <time datetime="2020-06-29">29.06.2020</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="article__unit-2__picture linkblock"
+              onclick="location.href='post1.html'"
+            >
+              <img src="content/Article2.svg" alt="Homemade cheesecake" />
+              <div class="article__unit-2__text">
+                <h2 class="unit-name-2">Домашний чизкейк</h2>
+                <span class="unit-text-2"
+                  >Что может быть лучше чизкейка с сезонными ягодами? Только
+                  домашний чизкейк!</span
+                >
+                <div class="unit-tags-time">
+                  <div class="unit-tags">Теги: рецепты</div>
+                  <div class="unit-time">
+                    <time datetime="2020-06-24">24.06.2020</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button>Показать ещё</button>
+        </section>
+        <section id="about-me">
+          <h1 class="about-me">Обо мне</h1>
+          <div class="about-me-block">
+            <div class="about-me-block__pictire">
+              <img src="content/Photo.svg" alt="Photo" />
+            </div>
+            <div class="about-me-block__text">
+              <div class="about-me-block__text__normal-text">
+                <p>
+                  Всем привет! Меня зовут Аня, и это мой личный блог.
+                  <br />Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                  <br />на плёнку, рецепты, обзоры на книги. В общем, тексты о
+                  том, <br />что мне инетресно.
+                </p>
+                <p>
+                  Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                  портфолио. Ниже размещены несколько моих лучших <br />рабочих
+                  текстов. Буду рада новым сотрудничествам!
+                </p>
+                <p>
+                  Если вы хотите написать мне — это можно сделать в соцсетях или
+                  через форму. Всегда приятно услышать обратную связь <br />от
+                  читателей и познакомиться поближе.
+                </p>
+                <p>Приятного чтения!</p>
+              </div>
+              <blockquote class="blockquote-text">
+                <i
+                  >Я верю, что каждый раз пробуя новое, выходящее за зону моего
+                  комфорта, <br />я действительно узнаю настояющую себя.</i
+                >
+              </blockquote>
+            </div>
+          </div>
+        </section>
+        <section class="section-portfolio" id="portfolio">
+          <h1 class="portfolio">Портфолио</h1>
+          <div class="portfolio-unit">
+            <div class="portfolio-unit__picture">
+              <img src="content/Portfolio1.svg" alt="HTML Academy Blog" />
+              <div class="portfolio-unit__text">
+                <h2 class="unit-name-black">Блог HTML Academy</h2>
+                <h3 class="unit-header-black">«Как учиться продуктивно»</h3>
+                <span class="unit-text-black"
+                  >Про основные методы обучения, <br />которые помогут быстро и
+                  надолго <br />запомнить информацию.</span
+                >
+              </div>
+            </div>
+            <div class="portfolio-unit__picture">
+              <img src="content/Portfolio2.svg" alt="«LNK» magazine" />
+              <div class="portfolio-unit__text">
+                <h2 class="unit-name-white">Журнал «LNK»</h2>
+                <h3 class="unit-header-white">
+                  «Зачем поцели нужны человеку? И какие они бывают»
+                </h3>
+                <span class="unit-text-white"
+                  >Поцелуи — повсеместная ежедневная практика. Но зачем люди
+                  целуются? <br />Какие смысли вкладывают в этот ритуал? <br />И
+                  где корни этой практики?</span
+                >
+              </div>
+            </div>
+            <div class="portfolio-unit__picture">
+              <img src="content/Portfolio3.svg" alt="«T — L» magazine" />
+              <div class="portfolio-unit__text">
+                <h2 class="unit-name-black">Журнал «Т — Л»</h2>
+                <h3 class="unit-header-black">
+                  «Советы по эффективной удалённой работе»
+                </h3>
+                <span class="unit-text-black"
+                  >Поделилась лайфхаками, которые помогают мне работать
+                  продуктивно из дома.
+                </span>
+              </div>
+            </div>
+          </div>
+          <button>Показать ещё</button>
+        </section>
+        <section class="section-write-me" id="write-me">
+          <h1 class="write-me">Написать мне</h1>
+          <div class="write-me-unit__picture">
+            <img
+              src="content/WriteToMe.svg"
+              alt="Write To Me"
+              class="WriteToMeImg"
+            />
+
+            <div class="write-me-unit__forms">
+              <form action="#" method="post">
+                <label
+                  >Ваше имя<br />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name-field"
+                    value="Иван Иванов"
+                    required /></label
+                ><br />
+                <label
+                  >Email<br />
+                  <input
+                    type="email"
+                    name="mail"
+                    id="mail-field"
+                    value="google@gmail.com"
+                    required /></label
+                ><br />
+                <label
+                  >Сообщение <br />
+                  <textarea
+                    name="message"
+                    id="message-field"
+                    rows="20"
+                    required
+                    minlength="10"
+                    maxlength="200"
+                  >
+Напишите здесь ваше сообщение.</textarea
+                  >
+                </label>
+                <input type="submit" class="button" value="ОТПРАВИТЬ" />
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__content">
+        <nav class="footer-nav">
+          <a href="#">ВК</a>
+          <a href="#">Телеграм</a>
+          <a href="#">Инстаграм</a>
+          <a href="#">Твиттер</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="likes.js"></script>
+    <script src="comments.js"></script>
+  </body>
+</html>

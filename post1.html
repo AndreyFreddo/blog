@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blog.css" />
+    <title>Motivation</title>
+  </head>
+  <body>
+    <header class="post-header">
+      <div class="post-header__content">
+        <a href="index.html" class="logo"
+          ><img src="content/Logo.svg" alt="Logo"
+        /></a>
+        <nav class="header-nav">
+          <a href="#all-articles">Статьи</a>
+          <a href="#about-me">Обо мне</a>
+          <a href="#portfolio">Портфолио</a>
+          <a href="#write-me">Написать мне</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article class="post1">
+        <h1>Как себя мотивировать</h1>
+        <div class="unit-tags">
+          Теги: путешествия, друзья
+          <time datetime="2020-09-29">29.09.2020</time>
+        </div>
+        <div class="post1__text">
+          <p>
+            Расскажу о биопсихологической теории личности Джеффри Грея, которая
+            помогла мне разобраться в работе <br />
+            мотивационных стимулов. Узнала я о ней из книги «Воля и
+            самоконтроль. Как гены и мозг мешают нам бороться<br />
+            с соблазнами» Ирины Якутенко.
+          </p>
+          <p>
+            Согласно этой теории, человеческое поведение контролируют две
+            системы: BAS (Behavior Activation System) и BIS (Behavior Inhibition
+            System), каждая из них обусловлена генетически. Грей использовал её
+            для понимания того, как вознаграждение <br />или наказание связаны с
+            беспокойством и импульсивностью. Самое интересное, что активность
+            этих систем у людей <br />различна. Зная, какая из них доминирует,
+            можно понять, какие стимулы использовать для эффективной мотивации.
+          </p>
+
+          <figure>
+            <img src="content/PostImg.svg" alt="Calendar" />
+            <figcaption>
+              Моё поведение регулируется больше BAS, поэтому при планировании
+              целей я всегда использую позитивный стимул.
+            </figcaption>
+          </figure>
+          <p>
+            BAS (Behavior Activation System) работает на ощущение позитивных
+            эмоций. Мотивация людей, чье поведение в основном определяется этой
+            системой, направлена на получение вознаграждения. Они стремятся
+            получить одобрение и награду<br />
+            за свои действия. Такие люди более мотивированы в учебе и развитии
+            разных навыков. Однако носители активной BAS <br />склонны к
+            импульсивности и желанию немедленного вознаграждения, что может
+            мешать долгосрочной работе. <br />BIS (Behavior Inhibition System)
+            ответственна за избегающее поведение. Люди с этой активной системой
+            мотивируются <br />стремлением избежать проблем. Они более
+            чувствительны к наказанию и новому опыту, а также стремятся избежать
+            <br />ситуаций, когда чувствуют, что могут потерпеть неудачу.
+          </p>
+          <p>
+            Определив, к какому типу относится поведение, вы узнаете, какие
+            стимулы использовать для достижения поставленной <br />цели.
+            Например, я решила выучить английский — само изучение не является
+            целью, поэтому нужно правильно <br />её сформулировать. Если моё
+            поведение регулируется BAS, мне нужно выбрать своей конечной целью
+            какую-то награду:<br />
+            например, если я выучу английский, то смогу смотреть фильмы в
+            оригинале. Если же я склонна к BIS поведению, целью <br />нужно
+            выбрать избежание проблем: если я заговорю на английском, то не
+            потеряюсь в новой стране. И это можно <br />использовать в различных
+            сферах жизни.
+          </p>
+          <div class="post1__footer">
+            <div class="post1__footer-like">
+              <button class="like-button" type="button"></button>
+              <span class="likes-counter">16</span>
+            </div>
+            <div class="post1__footer-social">
+              <img src="content/Twitter.svg" alt="Twitter" />
+              <img src="content/Facebook.svg" alt="Facebook" />
+              <img src="content/Vk.svg" alt="Vk" />
+            </div>
+          </div>
+          <h2>Ко всем статьям &#8594;</h2>
+        </div>
+        <article class="comments">
+          <ul class="comment-list">
+            <li class="user-comment">
+              <img src="content/Petrov.svg" alt="Petrov" />
+
+              <span class="username">Иван Петров</span>
+
+              <p>Отличная статья! Спасибо.</p>
+            </li>
+            <li class="user-comment">
+              <img src="content/Kseniya.svg" alt="Kseniya" />
+
+              <span class="username">Ксения Ксения</span>
+
+              <p>Отличный текст, добавила в закладки.</p>
+            </li>
+            <li class="user-comment">
+              <img src="content/Ivanov.svg" alt="Ivanov" />
+
+              <span class="username">Иван Иванов</span>
+
+              <p>
+                Основательный материал! Можешь посоветовать какие-то книги на
+                эту тему?
+              </p>
+            </li>
+          </ul>
+        </article>
+        <div class="leave-comment">
+          <h3>Оставить комментарий</h3>
+          <form action="#" method="post" class="comment-form">
+            <div name-mail-button-block>
+              <input
+                type="text"
+                name="name"
+                id="name-field"
+                value="Имя"
+                required
+              />
+              <input
+                type="email"
+                name="mail"
+                id="mail-field"
+                value="Почта"
+                required
+              /><br />
+              <!-- <input type="submit" class="comment-button" value="Отправить" /> -->
+              <button type="submit" class="comment-button">Отправить</button>
+            </div>
+            <textarea
+              name="message"
+              id="message-field"
+              rows="10"
+              required
+              minlength="10"
+              maxlength="200"
+            >
+  Написать комментарий...</textarea
+            >
+          </form>
+        </div>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__content">
+        <nav class="footer-nav">
+          <a href="#">ВК</a>
+          <a href="#">Телеграм</a>
+          <a href="#">Инстаграм</a>
+          <a href="#">Твиттер</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="likes.js"></script>
+    <script src="comments.js"></script>
+  </body>
+</html>
