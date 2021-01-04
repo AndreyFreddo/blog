@@ -18,13 +18,13 @@
     <header class="post-header">
       <div class="post-header__content">
         <a href="index.html" class="logo"
-          ><img src="Content/Logo.svg" alt="Logo"
+          ><img src="Content/Logo.png" alt="Logo"
         /></a>
         <nav class="header-nav">
-          <a href="index.html">Статьи</a>
-          <a href="index.html">Обо мне</a>
-          <a href="index.html">Портфолио</a>
-          <a href="index.html">Написать мне</a>
+          <a href="index.html#all-articles">Статьи</a>
+          <a href="index.html#about-me">Обо мне</a>
+          <a href="index.html#portfolio">Портфолио</a>
+          <a href="index.html#write-me">Написать мне</a>
         </nav>
       </div>
     </header>
@@ -54,7 +54,7 @@
           </p>
 
           <figure>
-            <img src="Content/PostImg.svg" alt="Calendar" />
+            <img src="Content/PostImg.jpg" alt="Calendar" />
             <figcaption>
               Моё поведение регулируется больше BAS, поэтому при планировании
               целей я всегда использую позитивный стимул.
@@ -98,26 +98,26 @@
               <img src="Content/Vk.svg" alt="Vk" />
             </div>
           </div>
-          <h3>Ко всем статьям &#8594;</h3>
+          <h3><a href="index.html#all-articles">Ко всем статьям &#8594;</a></h3>
         </div>
         <article class="comments">
           <ul class="comment-list">
             <li class="user-comment">
-              <img src="Content/Petrov.svg" alt="Petrov" />
+              <img src="Content/Petrov.png" alt="Petrov" />
 
               <span class="username">Иван Петров</span>
 
               <p>Отличная статья! Спасибо.</p>
             </li>
             <li class="user-comment">
-              <img src="Content/Kseniya.svg" alt="Kseniya" />
+              <img src="Content/Kseniya.png" alt="Kseniya" />
 
               <span class="username">Ксения Ксения</span>
 
               <p>Отличный текст, добавила в закладки.</p>
             </li>
             <li class="user-comment">
-              <img src="Content/Ivanov.svg" alt="Ivanov" />
+              <img src="Content/Ivanov.png" alt="Ivanov" />
 
               <span class="username">Иван Иванов</span>
 
@@ -136,29 +136,31 @@
                 type="text"
                 name="name"
                 id="name-field"
-                value="Имя"
+                placeholder="Имя"
+                maxlength="30"
+                pattern="^[^\s]+(\s.*)?$"
+                title="Имя не может начинаться с пробела"
                 required
               />
               <input
                 type="email"
                 name="mail"
                 id="mail-field"
-                value="Почта"
+                placeholder="Почта"
+                maxlength="50"
                 required
               /><br />
-              <!-- <input type="submit" class="comment-button" value="Отправить" /> -->
-              <button type="submit" class="comment-button">Отправить</button>
+              <button type="submit" class="comment-button js-button">
+                Отправить
+              </button>
             </div>
             <textarea
               name="message"
               id="message-field"
               rows="10"
+              placeholder="Написать комментарий..."
               required
-              minlength="10"
-              maxlength="200"
-            >
-  Написать комментарий...</textarea
-            >
+            ></textarea>
           </form>
         </div>
       </article>
@@ -173,7 +175,10 @@
         </nav>
       </div>
     </footer>
+    <button class="up-button" type="button">↑</button>
     <script src="likes.js"></script>
     <script src="comments.js"></script>
+    <script src="form.js"></script>
+    <script src="up-button.js"></script>
   </body>
 </html>
