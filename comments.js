@@ -1,6 +1,5 @@
 let commentForm = document.querySelector(".comment-form");
 let commentList = document.querySelector(".comment-list");
-let commentField = document.querySelector("textarea");
 let nameField = document.querySelector("#name-field");
 
 commentForm.onsubmit = function (evt) {
